@@ -6,9 +6,9 @@ edition = "2018"
 
 [dependencies]
 # Substrate dependencies
-sp-inherents = { git = "https://github.com/paritytech/substrate", branch = "rococo-branch", default-features = false }
-sp-std = { git = "https://github.com/paritytech/substrate", branch = "rococo-branch", default-features = false }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "rococo-branch", default-features = false }
+sp-inherents = { git = "https://github.com/purestake/substrate", branch = "crystalin-rococo-branch", default-features = false }
+sp-std = { git = "https://github.com/purestake/substrate", branch = "crystalin-rococo-branch", default-features = false }
+sp-runtime = { git = "https://github.com/purestake/substrate", branch = "crystalin-rococo-branch", default-features = false }
 
 # Polkadot dependencies
 polkadot-parachain = { git = "https://github.com/paritytech/polkadot", branch = "rococo-branch", default-features = false }

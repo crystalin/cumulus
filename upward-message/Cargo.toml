@@ -6,7 +6,7 @@ edition = "2018"
 
 [dependencies]
 # Substrate dependencies
-sp-std = { git = "https://github.com/paritytech/substrate", branch = "rococo-branch", default-features = false }
+sp-std = { git = "https://github.com/purestake/substrate", branch = "crystalin-rococo-branch", default-features = false }
 
 # Polkadot deps
 polkadot-core-primitives = { git = "https://github.com/paritytech/polkadot", branch = "rococo-branch", default-features = false }
